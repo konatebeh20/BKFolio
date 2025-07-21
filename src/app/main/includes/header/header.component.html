@@ -14,6 +14,27 @@
         <li><a [routerLink]="['/main/about']" routerLinkActive="router-link-active">About</a></li>
         <li><a [routerLink]="['/main/resume']" routerLinkActive="router-link-active">Resume</a></li>
         <li><a [routerLink]="['/main/portfolio']" routerLinkActive="router-link-active">Portfolio</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+            <li>
+              <a class="dropdown-item" [routerLink]="['/blog/articles']" routerLinkActive="active">
+                Articles
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" [routerLink]="['/blog/projects']" routerLinkActive="active">
+                Projets
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- <li><a [routerLink]="['/blog']" routerLinkActive="router-link-active">Blog</a></li> -->
         <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="#">Dropdown 1</a></li>

@@ -1,0 +1,11 @@
+.container {
+  display: flex; min-height: 80vh; flex-direction: column; align-items: center; justify-content: center;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+.text-danger {
+  color: #dc3545;
+}

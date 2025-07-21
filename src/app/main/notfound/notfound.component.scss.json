@@ -1,0 +1,85 @@
+[
+  {
+    "type": "rule",
+    "selector": ".container",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "display",
+        "value": "flex",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "flex-direction",
+        "value": "column",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      },
+      {
+        "type": "prop",
+        "name": "align-items",
+        "value": "center",
+        "annotation": false,
+        "depth": 1,
+        "seq": 2
+      },
+      {
+        "type": "prop",
+        "name": "justify-content",
+        "value": "center",
+        "annotation": false,
+        "depth": 1,
+        "seq": 3
+      },
+      {
+        "type": "prop",
+        "name": "min-height",
+        "value": "80vh",
+        "annotation": false,
+        "depth": 1,
+        "seq": 4
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": "h1",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "10rem",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".text-danger",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#dc3545",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      }
+    ],
+    "minify": false,
+    "expand": false
+  }
+]
