@@ -12,8 +12,10 @@
           mobile applications powered by cutting-edge technologies and data-driven insights.
         </p>
         <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-          <a href="#portfolio" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          <a [routerLink]="['/main/portfolio']" routerLinkActive="router-link-active" class="btn btn-primary">View My
+            Work</a>
+          <a [routerLink]="['/main/contact']" routerLinkActive="router-link-active" class="btn btn-outline">Let's
+            Connect</a>
         </div>
         <!-- <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
           <div class="stat-item">
@@ -133,7 +135,7 @@
               <div class="col-6">
                 <div class="info-item">
                   <span class="label">Email</span>
-                  <span class="value">konatebeh20&#64;gmail.com</span>
+                  <span class="value email">konatebeh20&#64;gmail.com</span>
                   <!-- <span class="value">konatebeh.ci&#64;gmail.com</span> -->
                 </div>
               </div>
@@ -200,8 +202,10 @@
         <h2 class="fw-bold mb-4 servies-title">
           Modern apps, smart data, seamless experience.
         </h2>
-        <p class="mb-4">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent taciti
-          sociosqu ad litora.</p>
+        <p class="mb-4">
+          Nous concevons des solutions intelligentes qui transforment vos données en valeur, tout en offrant une
+          expérience utilisateur fluide et moderne.
+        </p>
         <a href="#" class="btn btn-outline-primary">See all services</a>
       </div>
       <div class="col-lg-8">
@@ -614,7 +618,7 @@
                   <ul class="description">
                     <!-- <li>Développement d'applications web et mobiles avec <strong>Angular</strong>,
                       <strong>TypeScript</strong>, <strong>Ionic</strong> et <strong>Flask</strong>.</li>  -->
-                    
+
                     <li>
                       Participation à plusieurs projets internes et clients :
                       <ul>
@@ -794,9 +798,9 @@
 </section><!-- /Resume Section -->
 
 <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
+<!-- <section id="portfolio" class="portfolio section">
 
-  <!-- Section Title -->
+  Section Title
   <div class="container section-title" data-aos="fade-up">
     <h2>Portfolio</h2>
     <div class="title-shape">
@@ -807,7 +811,8 @@
     </div>
     <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum
       qui dolorem</p>
-  </div><!-- End Section Title -->
+  </div>
+  End Section Title
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -843,7 +848,8 @@
               <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
+        End Portfolio Item
 
         <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
           <div class="portfolio-card">
@@ -863,7 +869,8 @@
               <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
+        End Portfolio Item
 
         <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
           <div class="portfolio-card">
@@ -883,7 +890,8 @@
               <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
+        End Portfolio Item
 
         <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
           <div class="portfolio-card">
@@ -903,7 +911,8 @@
               <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
+        End Portfolio Item
 
         <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
           <div class="portfolio-card">
@@ -923,7 +932,8 @@
               <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
+        End Portfolio Item
 
         <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
           <div class="portfolio-card">
@@ -943,15 +953,96 @@
               <p>Cras mattis consectetur purus sit amet fermentum.</p>
             </div>
           </div>
-        </div><!-- End Portfolio Item -->
-
-      </div><!-- End Portfolio Container -->
+        </div>
+        End Portfolio Item
+      </div>
+      End Portfolio Container
 
     </div>
 
   </div>
 
-</section><!-- /Portfolio Section -->
+</section> -->
+<!-- /Portfolio Section -->
+
+
+
+
+
+
+
+
+
+<section id="portfolio" class="portfolio section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2">
+        </path>
+      </svg>
+    </div>
+    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum
+      qui dolorem</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <!-- tes filtres éventuels -->
+      <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+        <ul class="portfolio-filters isotope-filters">
+          <li data-filter="*" class="filter-active">All Work</li>
+          <li data-filter=".filter-web">Web Design</li>
+          <li data-filter=".filter-graphics">Graphics</li>
+          <li data-filter=".filter-motion">Motion</li>
+          <li data-filter=".filter-brand">Branding</li>
+        </ul>
+      </div>
+
+      <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+        <!-- ton *ngFor ici -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item" *ngFor="let project of projects"
+          [ngClass]="project.filter">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img [src]="project.imageUrl" class="img-fluid" alt="" loading="lazy">
+              <div class="portfolio-overlay">
+                <div class="portfolio-actions">
+                  <a [href]="project.imageUrl" class="glightbox preview-link" data-gallery="portfolio-gallery">
+                    <i class="bi bi-eye"></i>
+                  </a>
+                  <a href="portfolio-details.html" class="details-link">
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="category">{{ project.category }}</span>
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section light-background">

@@ -1,0 +1,143 @@
+[
+  {
+    "type": "rule",
+    "selector": "@media (max-width: 767px)",
+    "depth": 0,
+    "children": [
+      {
+        "type": "rule",
+        "selector": ".navbar .dropdown-menu",
+        "depth": 1,
+        "children": [
+          {
+            "type": "prop",
+            "name": "position",
+            "value": "static !important",
+            "annotation": false,
+            "depth": 2,
+            "seq": 0
+          },
+          {
+            "type": "prop",
+            "name": "float",
+            "value": "none",
+            "annotation": false,
+            "depth": 2,
+            "seq": 1
+          },
+          {
+            "type": "prop",
+            "name": "width",
+            "value": "auto",
+            "annotation": false,
+            "depth": 2,
+            "seq": 2
+          },
+          {
+            "type": "prop",
+            "name": "margin-top",
+            "value": "0",
+            "annotation": false,
+            "depth": 2,
+            "seq": 3
+          },
+          {
+            "type": "prop",
+            "name": "background-color",
+            "value": "transparent",
+            "annotation": false,
+            "depth": 2,
+            "seq": 4
+          },
+          {
+            "type": "prop",
+            "name": "border",
+            "value": "0",
+            "annotation": false,
+            "depth": 2,
+            "seq": 5
+          },
+          {
+            "type": "prop",
+            "name": "box-shadow",
+            "value": "none",
+            "annotation": false,
+            "depth": 2,
+            "seq": 6
+          },
+          {
+            "type": "prop",
+            "name": "display",
+            "value": "none",
+            "annotation": false,
+            "depth": 2,
+            "seq": 7
+          }
+        ],
+        "minify": false,
+        "expand": false
+      },
+      {
+        "type": "rule",
+        "selector": ".navbar .dropdown-menu.show",
+        "depth": 1,
+        "children": [
+          {
+            "type": "prop",
+            "name": "display",
+            "value": "block !important",
+            "annotation": false,
+            "depth": 2,
+            "seq": 0
+          }
+        ],
+        "minify": false,
+        "expand": false
+      },
+      {
+        "type": "rule",
+        "selector": ".navbar .dropdown-item",
+        "depth": 1,
+        "children": [
+          {
+            "type": "prop",
+            "name": "padding",
+            "value": "0.5rem 1rem",
+            "annotation": false,
+            "depth": 2,
+            "seq": 0
+          },
+          {
+            "type": "prop",
+            "name": "color",
+            "value": "inherit",
+            "annotation": false,
+            "depth": 2,
+            "seq": 1
+          }
+        ],
+        "minify": false,
+        "expand": false
+      },
+      {
+        "type": "rule",
+        "selector": ".navbar .dropdown-item:hover",
+        "depth": 1,
+        "children": [
+          {
+            "type": "prop",
+            "name": "background-color",
+            "value": "rgba(0,0,0,0.1)",
+            "annotation": false,
+            "depth": 2,
+            "seq": 0
+          }
+        ],
+        "minify": false,
+        "expand": false
+      }
+    ],
+    "minify": false,
+    "expand": false
+  }
+]

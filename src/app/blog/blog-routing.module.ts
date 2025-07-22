@@ -9,7 +9,8 @@ const routes: Routes = [
     path: '', component: BlogComponent,
     children: [
       { path: '', redirectTo: 'articles', pathMatch: 'full'},
-      { path: 'articles', component: ArticlesComponent },
+      // { path: 'articles', component: ArticlesComponent },
+      { path: 'articles', loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule) },
       { path: 'projects', component: ProjectsComponent },    ]
   },
 ];

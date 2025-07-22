@@ -1,0 +1,260 @@
+[
+  {
+    "type": "rule",
+    "selector": ".location",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "font-style",
+        "value": "italic",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#6c757d",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      },
+      {
+        "type": "comment",
+        "value": "/* Couleur gris Bootstrap */",
+        "depth": 1
+      },
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "1rem",
+        "annotation": false,
+        "depth": 1,
+        "seq": 3
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".timeline-right h3",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "1.5rem",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "font-weight",
+        "value": "bold",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".timeline-right h4",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "1.2rem",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "font-weight",
+        "value": "600",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      },
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#6c757d",
+        "annotation": false,
+        "depth": 1,
+        "seq": 2
+      },
+      {
+        "type": "comment",
+        "value": "/* Couleur gris Bootstrap */",
+        "depth": 1
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".timeline-right ul",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "padding-left",
+        "value": "20px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".timeline-right li",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "margin-bottom",
+        "value": "5px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "rule",
+    "selector": ".formation-period",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#007bff",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "comment",
+        "value": "/* Bleu Bootstrap */",
+        "depth": 1
+      },
+      {
+        "type": "prop",
+        "name": "font-weight",
+        "value": "bold",
+        "annotation": false,
+        "depth": 1,
+        "seq": 2
+      },
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "1rem",
+        "annotation": false,
+        "depth": 1,
+        "seq": 3
+      },
+      {
+        "type": "prop",
+        "name": "background-color",
+        "value": "#e9f5ff",
+        "annotation": false,
+        "depth": 1,
+        "seq": 4
+      },
+      {
+        "type": "comment",
+        "value": "/* Bleu clair en arrière-plan */",
+        "depth": 1
+      },
+      {
+        "type": "prop",
+        "name": "padding",
+        "value": "4px 8px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 6
+      },
+      {
+        "type": "prop",
+        "name": "border-radius",
+        "value": "4px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 7
+      }
+    ],
+    "minify": false,
+    "expand": false
+  },
+  {
+    "type": "comment",
+    "value": "// .email {",
+    "depth": 0
+  },
+  {
+    "type": "comment",
+    "value": "//   display: inline-block; word-break: break-all; overflow-wrap: break-word;",
+    "depth": 0
+  },
+  {
+    "type": "comment",
+    "value": "// }",
+    "depth": 0
+  },
+  {
+    "type": "rule",
+    "selector": ".value",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "display",
+        "value": "block",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "font-weight",
+        "value": "600",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      },
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#333",
+        "annotation": false,
+        "depth": 1,
+        "seq": 2
+      },
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "13px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 3
+      }
+    ],
+    "minify": false,
+    "expand": false
+  }
+]

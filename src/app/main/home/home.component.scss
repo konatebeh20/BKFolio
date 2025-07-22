@@ -1,18 +1,18 @@
 .location {
-  font-style: italic;
-  color: #6c757d; /* Couleur gris Bootstrap */
+  font-style: italic; color: #6c757d;
+
+  /* Couleur gris Bootstrap */
   font-size: 1rem;
 }
 
 .timeline-right h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.5rem; font-weight: bold;
 }
 
 .timeline-right h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #6c757d; /* Couleur gris Bootstrap */
+  font-size: 1.2rem; font-weight: 600; color: #6c757d;
+
+  /* Couleur gris Bootstrap */
 }
 
 .timeline-right ul {
@@ -24,10 +24,18 @@
 }
 
 .formation-period {
-  color: #007bff; /* Bleu Bootstrap */
-  font-weight: bold;
-  font-size: 1rem;
-  background-color: #e9f5ff; /* Bleu clair en arrière-plan */
-  padding: 4px 8px;
-  border-radius: 4px;
+  color: #007bff;
+
+  /* Bleu Bootstrap */
+  font-weight: bold; font-size: 1rem; background-color: #e9f5ff;
+
+  /* Bleu clair en arrière-plan */
+  padding: 4px 8px; border-radius: 4px;
+}
+
+// .email {
+//   display: inline-block; word-break: break-all; overflow-wrap: break-word;
+// }
+.value {
+  display: block; font-weight: 600; color: #333; font-size: 13px;
 }

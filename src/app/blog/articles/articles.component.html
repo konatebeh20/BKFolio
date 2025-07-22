@@ -1,62 +1,11 @@
-<!-- Hero Section -->
-<section id="hero" class="hero section">
+<app-header></app-header>
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
+<main class="main">
+  <router-outlet />
+   <!-- <router-outlet></router-outlet> -->
+</main>
 
-    <div class="row align-items-center content">
-      <!-- Section Title -->
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-        <!-- <div class="container section-title" data-aos="fade-up">
-          <h2>About</h2>
-          <div class="title-shape">
-            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
-            </svg>
-          </div>
-        </div> -->
-        <h2>Articles</h2>
-        <!-- <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p> -->
-      </div><!-- End Section Title -->
-    </div>
-  </div>
-</section><!-- /Hero Section -->
+<app-footer></app-footer>
 
-
-<!-- <div class="container py-5">
-  <h2>Articles</h2>
-  <ul class="list-group">
-    <li class="list-group-item" *ngFor="let article of articles">
-      <a [routerLink]="article.link">{{ article.title }}</a> <small class="text-muted">{{ article.date }}</small>
-    </li>
-  </ul>
-</div> -->
-
-<div class="container py-5">
-  <!-- <h1 class="mb-4">📝 Mes Articles</h1> -->
-  <h1 class="mb-4">Mes Articles</h1>
-
-  <div class="row">
-    <div 
-      class="col-md-6 col-lg-4 mb-4"
-      *ngFor="let article of articles">
-
-      <div class="card h-100 shadow-sm">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">{{ article.title }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{ article.date }}</h6>
-          <p class="card-text flex-grow-1">
-            <!-- Résumé factice, tu peux ajouter une propriété `summary` plus tard -->
-            Lire l'article pour plus de détails.
-          </p>
-          <a 
-            [routerLink]="['/articles', article.id]" 
-            class="btn btn-primary mt-auto">
-            Lire l'article
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

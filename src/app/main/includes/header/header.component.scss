@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  .navbar .dropdown-menu {
+    position: static !important; display: none; width: auto; margin-top: 0; border: 0; float: none; background-color: transparent; box-shadow: none;
+  }
+
+  .navbar .dropdown-menu.show {
+    display: block !important;
+  }
+
+  .navbar .dropdown-item {
+    padding: 0.5rem 1rem; color: inherit;
+  }
+
+  .navbar .dropdown-item:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+}

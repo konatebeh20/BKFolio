@@ -1,0 +1,43 @@
+[
+  {
+    "type": "rule",
+    "selector": ".value",
+    "depth": 0,
+    "children": [
+      {
+        "type": "prop",
+        "name": "display",
+        "value": "block",
+        "annotation": false,
+        "depth": 1,
+        "seq": 0
+      },
+      {
+        "type": "prop",
+        "name": "font-weight",
+        "value": "600",
+        "annotation": false,
+        "depth": 1,
+        "seq": 1
+      },
+      {
+        "type": "prop",
+        "name": "color",
+        "value": "#333",
+        "annotation": false,
+        "depth": 1,
+        "seq": 2
+      },
+      {
+        "type": "prop",
+        "name": "font-size",
+        "value": "13px",
+        "annotation": false,
+        "depth": 1,
+        "seq": 3
+      }
+    ],
+    "minify": false,
+    "expand": false
+  }
+]

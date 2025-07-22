@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
 
 @Component({
@@ -40,6 +40,36 @@ export class HeaderComponent implements OnInit, AfterViewInit{
         }
       }
     });
+  }
+
+  toggleDropdown(event: Event) {
+    event.preventDefault();
+    event.stopPropagation();
+    
+    const clickedElement = event.currentTarget as HTMLElement;
+    const dropdownMenu = clickedElement.nextElementSibling as HTMLElement;
+    
+    // Fermer tous les autres dropdowns
+    document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+      if (menu !== dropdownMenu) {
+        menu.classList.remove('show');
+      }
+    });
+    
+    // Toggle le dropdown cliqué
+    if (dropdownMenu) {
+      dropdownMenu.classList.toggle('show');
+    }
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: Event) {
+    const target = event.target as HTMLElement;
+    if (!target.closest('.dropdown')) {
+      document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+        menu.classList.remove('show');
+      });
+    }
   }
 
 }
